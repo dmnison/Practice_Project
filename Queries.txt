@@ -1,0 +1,23 @@
+create database spring;
+
+use spring;
+
+select * from users;
+
+insert into users values(1,'$2a$12$sZf4T.IlZKTwNWtQr6S6HutAewv23owOnNmwiip5FBg28vcoWXQ4u','Anil');
+insert into users values(2,'$2a$12$SzG3rttKZW4s31hL56kN.OAjuSeH47QJBCmsY2WOyNaekv4xRloQm','user');
+
+
+
+
+insert into roles values(1,'ADMIN');
+insert into roles values(2,'USER');
+
+insert into users_roles values(1,1);
+insert into users_roles values(2,2);
+select * from users_roles;
+
+#passwords
+
+anil#12345
+user@34512
